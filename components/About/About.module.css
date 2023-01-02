@@ -77,9 +77,8 @@
   }
 
   .imgContainer img {
-    width: 60%;
+    width: clamp(20rem, 30vw, 27rem);
     height: max-content;
-    max-width: 27rem;
   }
   .contact {
     grid-column-start: 1;
@@ -88,7 +87,7 @@
   }
 
   .description p {
-    font-size: clamp(1.1rem, 1.5vw, 1.5rem);
+    font-size: clamp(1.2rem, 1.5vw, 1.5rem);
     width: 85%;
     line-height: 2em;
     padding: 0.5em 0;

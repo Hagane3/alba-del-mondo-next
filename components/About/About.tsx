@@ -15,7 +15,7 @@ function About() {
             <strong>
               wykonawstwie dzieł z epoki baroku w nurcie historycznie
               poinformowanym.
-            </strong>
+            </strong>{" "}
             Skład zespołu, złożony z profesjonalnych muzyków – w większości
             absolwentów Akademii Muzycznej im. Grażyny i Kiejstuta Bacewiczów w
             Łodzi, poszerzany jest zgodnie z zapotrzebowaniem repertuarowym.
