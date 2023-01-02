@@ -1,13 +1,14 @@
 import classes from "./About.module.css";
 import Image from "next/image";
 import image1 from "../../public/images/bridge1.png";
+import SectionTitle from "../UI/SectionTitle/SectionTitle";
 
 function About() {
   return (
     <section className={classes.about}>
       <div className={classes.content}>
         <div className={classes.description}>
-          <h1 className={classes.sectionTitle}>O nas</h1>
+          <SectionTitle>O nas</SectionTitle>
           <p>
             Zespół <strong>Alba del Mondo</strong> został założony w sierpniu
             2020 roku przez barytona Adama Kamienieckiego oraz klawesynistkę
