@@ -58,6 +58,15 @@
   color: #eaeaea;
 }
 
+@media (min-width: 40em) {
+  .mobileMenu ul {
+    gap: 2.3rem;
+  }
+  .mobileMenu ul li {
+    font-size: 1.8rem;
+  }
+}
+
 @media (min-width: 64em) {
   .mobileMenu {
     display: none;
