@@ -1,0 +1,103 @@
+.sectionTitle {
+  font-family: "Bebas Neue";
+  font-size: 2.5rem;
+  background-color: #e66235;
+  text-align: center;
+  padding: 1.625rem 0;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.imgContainer {
+  background-size: contain;
+  width: 100%;
+}
+
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.description p {
+  font-family: "Roboto Condensed";
+  line-height: 1.5em;
+  padding: 0.5em 1em;
+  padding-top: 1em;
+}
+
+.description strong {
+  font-weight: bold;
+}
+
+.contact {
+  padding: 2rem 1rem 2.5rem 1rem;
+}
+
+.contact button {
+  font-family: "Bebas Neue";
+  background-color: #5a97c2;
+  color: #ffffff;
+  letter-spacing: 1px;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.75rem 2.28rem 0.5rem 2.28rem;
+  width: 100%;
+}
+
+@media (min-width: 40em) {
+  .sectionTitle {
+    font-size: 3.5rem;
+  }
+  .description p {
+    font-size: 1.4rem;
+  }
+  .contact button {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .content {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin: 9.5rem 2.5rem 0 2.5rem;
+  }
+
+  .imgContainer {
+    grid-row: 1;
+    grid-column-start: 2;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .imgContainer img {
+    width: 60%;
+    height: max-content;
+    max-width: 27rem;
+  }
+  .contact {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 0 auto;
+  }
+
+  .description p {
+    font-size: clamp(1.1rem, 1.5vw, 1.5rem);
+  }
+
+  .sectionTitle {
+    width: 60%;
+  }
+
+  .contact button {
+    font-size: 2.25rem;
+    width: auto;
+    padding: 1.25rem 4.8rem 1rem 4.8rem;
+  }
+}
