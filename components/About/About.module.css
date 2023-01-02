@@ -89,6 +89,10 @@
 
   .description p {
     font-size: clamp(1.1rem, 1.5vw, 1.5rem);
+    width: 85%;
+    line-height: 2em;
+    padding: 0.5em 0;
+    padding-top: 1em;
   }
 
   .sectionTitle {
