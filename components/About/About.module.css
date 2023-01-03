@@ -86,4 +86,8 @@
     width: auto;
     padding: 1.25rem 4.8rem 1rem 4.8rem;
   }
+
+  .titleContainer {
+    width: 60%;
+  }
 }

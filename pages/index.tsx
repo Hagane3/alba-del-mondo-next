@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Head from "next/head";
 import Header from "../components/Header/Header";
 import About from "../components/About/About";
+import Members from "../components/Members/Members";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <About />
+      <Members />
     </>
   );
 }

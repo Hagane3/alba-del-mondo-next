@@ -13,8 +13,3 @@
     font-size: 3.5rem;
   }
 }
-@media (min-width: 64em) {
-  .sectionTitle {
-    width: 60%;
-  }
-}

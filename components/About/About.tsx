@@ -4,11 +4,17 @@ import image1 from "../../public/images/bridge1.png";
 import SectionTitle from "../UI/SectionTitle/SectionTitle";
 
 function About() {
+  const tempClickHandler = () => {
+    alert("Clicked");
+  };
+
   return (
     <section className={classes.about}>
       <div className={classes.content}>
         <div className={classes.description}>
-          <SectionTitle>O nas</SectionTitle>
+          <div className={classes.titleContainer}>
+            <SectionTitle>O nas</SectionTitle>
+          </div>
           <p>
             Zespół <strong>Alba del Mondo</strong> został założony w sierpniu
             2020 roku przez barytona Adama Kamienieckiego oraz klawesynistkę
@@ -38,7 +44,7 @@ function About() {
           </p>
         </div>
         <div className={classes.contact}>
-          <button>Skontaktuj sie z nami</button>
+          <button onClick={tempClickHandler}>Skontaktuj sie z nami</button>
         </div>
         <div className={classes.imgContainer}>
           <Image src={image1} alt="statue of woman" />
