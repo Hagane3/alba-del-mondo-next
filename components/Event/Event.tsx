@@ -8,7 +8,7 @@ function Event() {
     <section className={classes.event}>
       <div className={classes.description}>
         <p className={classes.title}>Musica Dell’Anima</p>
-        <p className={classes.content}>
+        <div className={classes.content}>
           <p className={classes.first}>
             Wschodni Festiwal Muzyki Barokowej{" "}
             <strong>MUSICA DELL'ANIMA w Zamościu</strong> to inicjatywa
@@ -34,7 +34,7 @@ function Event() {
             celem jest lokalna realizacja muzycznych idei i przygotowywanie
             festiwalowych premier.{" "}
           </p>
-        </p>
+        </div>
       </div>
       <div className={classes.image}>
         <Image src={eventImage} alt="bridge" />
