@@ -5,6 +5,7 @@ import About from "../components/About/About";
 import Members from "../components/Members/Members";
 import Repertoire from "../components/Repertoire/Repertoire";
 import Gallery from "../components/Gallery/Gallery";
+import Event from "../components/Event/Event";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Members />
       <Repertoire />
       <Gallery />
+      <Event />
     </>
   );
 }
