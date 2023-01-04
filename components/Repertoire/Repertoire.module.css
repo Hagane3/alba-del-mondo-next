@@ -70,13 +70,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
   }
 
   .descriptionHeader {
     grid-row: 1;
     grid-column: 2/3;
-
   }
 
   .dotsContainer {
@@ -91,7 +89,7 @@
     font-size: 3rem;
   }
   .description p {
-    font-size: clamp(1rem, 1.5vw, 1.25rem));
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
     line-height: 2.75rem;
     width: 85%;
     letter-spacing: 1px;

@@ -4,6 +4,7 @@ import Header from "../components/Header/Header";
 import About from "../components/About/About";
 import Members from "../components/Members/Members";
 import Repertoire from "../components/Repertoire/Repertoire";
+import Gallery from "../components/Gallery/Gallery";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <About />
       <Members />
       <Repertoire />
+      <Gallery />
     </>
   );
 }
