@@ -9,7 +9,7 @@ function About() {
   };
 
   return (
-    <section className={classes.about}>
+    <section id="about" className={classes.about}>
       <div className={classes.content}>
         <div className={classes.description}>
           <div className={classes.titleContainer}>

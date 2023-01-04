@@ -5,7 +5,7 @@ import MEMBERS from "../../data/MEMBERS";
 
 function Members() {
   return (
-    <section className={classes.members}>
+    <section id="members" className={classes.members}>
       <div className={classes.title}>
         <SectionTitle>Skład</SectionTitle>
       </div>

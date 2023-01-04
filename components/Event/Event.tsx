@@ -5,7 +5,7 @@ import eventImage from "../../public/images/event.webp";
 
 function Event() {
   return (
-    <section className={classes.event}>
+    <section id="event" className={classes.event}>
       <div className={classes.description}>
         <p className={classes.title}>Musica Dell’Anima</p>
         <div className={classes.content}>

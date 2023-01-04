@@ -13,7 +13,7 @@ import logo from "../../public/images/logo_black.png";
 
 function Footer() {
   return (
-    <footer className={classes.footer}>
+    <footer id="footer" className={classes.footer}>
       <div className={classes.header}>
         <Image src={logo} alt="logo" />
         <p className={classes.title}>ALBA DEL MONDO</p>

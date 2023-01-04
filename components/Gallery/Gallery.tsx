@@ -42,7 +42,7 @@ function Gallery() {
     }
   };
   return (
-    <section className={classes.gallery}>
+    <section id="gallery" className={classes.gallery}>
       <div className={classes.mobileImageContainer}>
         <SectionTitle>Galeria</SectionTitle>
         <div className={classes.imageDiv}>

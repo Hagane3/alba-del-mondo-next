@@ -15,7 +15,7 @@ const Repertoire = () => {
   };
 
   return (
-    <section className={classes.repertoire}>
+    <section id="repertoire" className={classes.repertoire}>
       <SectionTitle>Repertuar</SectionTitle>
       <div className={classes.repertoireImg}>
         <Image src={REPERTOIRE[id].image} alt="repertoire picture" />
