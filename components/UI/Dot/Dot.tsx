@@ -3,12 +3,15 @@ import classes from "./Dot.module.css";
 interface Props {
   changeRepertoire: (id: number) => void;
   id: number;
+  activeId: number;
 }
 
-function Dot({ changeRepertoire, id }: Props) {
+function Dot({ changeRepertoire, id, activeId }: Props) {
+  const isActive = id === activeId;
+
   return (
     <div
-      className={classes.dot}
+      className={`${classes.dot} ${isActive ? classes.active : ""}`}
       onClick={() => {
         changeRepertoire(id);
       }}

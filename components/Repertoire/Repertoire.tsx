@@ -33,6 +33,7 @@ const Repertoire = () => {
                 key={item.id}
                 id={item.id}
                 changeRepertoire={changeRepertoireHandler}
+                activeId={id}
               />
             );
           })}
