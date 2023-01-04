@@ -87,10 +87,12 @@
   }
 
   .dotsContainer {
-    width: 30%;
+    width: 50%;
+    max-width: 30rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 2rem;
   }
 
   .primaryTitle,
