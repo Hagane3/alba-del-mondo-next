@@ -1,6 +1,5 @@
 .footer {
   margin-top: 2rem;
-  display: grid;
 }
 
 .header {
@@ -68,8 +67,36 @@
 
 @media (min-width: 64em) {
   .footer {
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
     margin-top: 7rem;
     padding-bottom: 5rem;
+  }
+
+  .socials,
+  .contact {
+    margin: 0;
+  }
+
+  .header .title {
+    font-size: 3.6rem;
+  }
+
+  .header .subtitle {
+    font-size: 2rem;
+  }
+
+  .contact .title,
+  .socials .title {
+    font-size: 2.25rem;
+  }
+
+  .contact span {
+    font-size: 1.25rem;
+  }
+
+  .contact .icon,
+  .socials .icon {
+    font-size: clamp(2.5rem, 3vw, 3.5rem);
   }
 }

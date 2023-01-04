@@ -9,6 +9,7 @@
 
 .descriptionHeader {
   margin: 2rem 1rem 0.5rem 1rem;
+  min-height: 17vh;
 }
 
 .primaryTitle,
@@ -30,7 +31,8 @@
 .description p {
   font-family: "Roboto Condensed";
   line-height: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  min-height: 75vh;
 }
 
 .dotsContainer {
@@ -49,6 +51,11 @@
   .description p {
     font-size: 1.25rem;
     line-height: 1.75rem;
+    min-height: 50vh;
+  }
+
+  .descriptionHeader {
+    min-height: 18vh;
   }
 }
 
@@ -56,9 +63,11 @@
   .repertoire {
     margin: 0 2.5rem;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     row-gap: 1.5rem;
     column-gap: clamp(2rem, 4vw, 8rem);
+    height: 100vh;
+    margin-top: 15%;
   }
 
   .repertoireImg {
