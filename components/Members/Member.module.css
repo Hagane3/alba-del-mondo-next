@@ -63,9 +63,13 @@
     grid-row-start: 1;
     position: relative;
     top: 8rem;
+    margin-left: 0;
+    margin-right: 0;
   }
   .member:nth-child(6) {
     position: relative;
     top: 8rem;
+    margin-left: 0;
+    margin-right: 0;
   }
 }

@@ -6,6 +6,9 @@
   padding: 1.625rem 0;
   color: #ffffff;
   letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 40em) {
