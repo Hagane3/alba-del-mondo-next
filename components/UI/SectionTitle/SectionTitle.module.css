@@ -1,0 +1,18 @@
+.sectionTitle {
+  font-family: "Bebas Neue";
+  font-size: 2.5rem;
+  background-color: #e66235;
+  text-align: center;
+  padding: 1.625rem 0;
+  color: #ffffff;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 40em) {
+  .sectionTitle {
+    font-size: 3.5rem;
+  }
+}
