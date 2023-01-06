@@ -11,7 +11,7 @@ function Event() {
         <div className={classes.content}>
           <p className={classes.first}>
             Wschodni Festiwal Muzyki Barokowej
-            <strong>MUSICA DELL`&quot;`ANIMA w Zamościu</strong> to inicjatywa
+            <strong>MUSICA DELL &quot; ANIMA w Zamościu</strong> to inicjatywa
             kulturalna zapoczątkowana w 2021 roku przez Adama Kamienieckiego i
             współorganizowana wraz z zespołem muzyki dawnej
             <strong>Alba del Mondo.</strong>

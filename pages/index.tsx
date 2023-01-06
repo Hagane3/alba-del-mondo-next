@@ -13,6 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>Alba del Mondo</title>
+        {/* <meta name="description">A website presenting a music band</meta> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
       </Head>

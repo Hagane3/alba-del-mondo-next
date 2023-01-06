@@ -33,16 +33,15 @@ function About() {
             programami w ramach wielu festiwali i cykli koncertowych w całej
             Polsce. W sierpniu 2021 roku miała miejsce pierwsza trasa koncertowa
             zespołu (woj. świętokrzyskie) z programem{" "}
-            <strong>`&quot;`Muzyka na chwilę`&quot;`.</strong> Zespół jest
-            również organizatorem corocznego{" "}
+            <strong>&quot; Muzyka na chwilę &quot;.</strong> Zespół jest również
+            organizatorem corocznego{" "}
             <strong>
-              Wschodniego Festiwalu Muzyki Barokowej MUSICA DELL`&quot;`ANIMA w
+              Wschodniego Festiwalu Muzyki Barokowej MUSICA DELL&quot;ANIMA w
               Zamościu
             </strong>{" "}
             oraz cyklu koncertów{" "}
             <strong>
-              `&quot;`Barokowe Wieczory w Pałacu Kindermanna`&quot;` w
-              Łodzi.`&quot;`
+              &quot;Barokowe Wieczory w Pałacu Kindermanna &quot; w Łodzi.&quot;
             </strong>
           </p>
         </div>
